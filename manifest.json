@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "tô màu ô vuông",
+  "version": "1.0",
+  "description": "Công cụ hỗ trợ màu sắc",
+  "permissions": [],
+  "host_permissions": [
+    "https://*.chess.com/*",
+    "https://*.lichess.org/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.chess.com/*",
+        "https://*.lichess.org/*"
+      ],
+      "js": ["fullV2.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "color.png",
+    "48": "color.png",
+    "128": "color.png"
+  }
+}
