@@ -14,7 +14,7 @@
         "https://*.chess.com/*",
         "https://*.lichess.org/*"
       ],
-      "js": ["fullV2.js"],
+      "js": ["toolColor.js"],
       "run_at": "document_idle"
     }
   ],
